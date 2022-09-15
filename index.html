@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Número primo</title>
+</head>
+
+<body class="h-full w-full">
+
+  <div class="h-screen flex items-center justify-center bg-green-400">
+    <div class="p-10 max-w-[120vh] bg-lime-200 rounded-xl">
+      <h1 class="text-3xl text-center font-bold uppercase">Validación de un número primo</h1>
+
+      <!--Teoría-->
+      <div class="mt-6 p-10 flex items-center justify-center bg-white rounded-xl">
+        <img class="rounded-xl w-1/2"
+          src="https://www.abcfichas.com/wp-content/uploads/2021/10/Ejemplos-de-Numeros-Primos.jpg" alt="primos" />
+        <div class="px-5 py-3 bg-white rounded-lg">
+          <p class="text-2xl text-center">
+            <u class="font-semibold">Descripción:</u> Un número primo es un número entero divisible solamente
+            por el
+            mismo
+            y por la unidad.
+          </p>
+        </div>
+      </div>
+
+      <!--Cálculo-->
+      <h2 class="mt-6 text-4xl font-medium">Resultado:</h2>
+      <p class="mt-2 text-3xl" id="resultado"></p>
+
+      <!--Validation-->
+      <div class="hidden mt-5 px-4 py-2 text-lg bg-red-500 text-white font-semibold rounded-lg" id="validation"></div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
